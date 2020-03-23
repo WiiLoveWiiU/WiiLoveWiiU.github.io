@@ -1,0 +1,211 @@
+/* Unscii Fonts */
+@font-face
+{
+  font-family: unscii;
+  src: url(fonts/unscii-8-thin.woff) format('woff');
+  font-smooth: never;
+  -webkit-font-smoothing : none;
+}
+
+@font-face
+{
+  font-family: unscii;
+  src: url(fonts/unscii-8.woff) format('woff');
+  font-weight: bold;
+  font-smooth: never;
+  -webkit-font-smoothing : none;  
+}
+
+@font-face
+{
+  font-family: unscii-16;
+  src: url(fonts/unscii-16.woff) format('woff');
+  font-smooth: never;
+  -webkit-font-smoothing : none;
+}
+
+/* Text style */
+body
+{
+  whitespace: pre;
+  color: white;
+  font-family: unscii, monospace;
+  font-size: 16px;
+  animation: textShadow 1s infinite;
+}
+
+h1, h2, h3
+{
+  font-family: unscii-16, monospace;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+h4, h5, h6
+{
+  font-family: unscii-16, monospace;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+a
+{
+  text-decoration: none;
+  color: #AFAFFF
+}
+
+a:hover
+{
+  text-decoration: underline;
+  color: #8080FF
+}
+
+/* Table */
+table
+{
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+th, td
+{
+  /*
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px dashed white;
+  border-right: 1px dashed white;
+  */
+  padding: 5px;
+}
+
+tr
+{
+  background-color: #ffffff10;
+}
+
+tr:hover
+{
+  background-color: #ffffff40;
+}
+
+/* Three.js */
+canvas
+{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+/* Animations */
+@keyframes textShadow
+{
+  0%
+  {
+    text-shadow: 0.4389924193300864px 0 2px #0000FFCC, -0.4389924193300864px 0 2px #FF0000CC;
+  }
+
+  5%
+  {
+    text-shadow: 2.7928974010788217px 0 2px #0000FFCC, -2.7928974010788217px 0 2px #FF0000CC;
+  }
+
+  10%
+  {
+    text-shadow: 0.02956275843481219px 0 2px #0000FFCC, -0.02956275843481219px 0 2px #FF0000CC;
+  }
+
+  15%
+  {
+    text-shadow: 0.40218538552878136px 0 2px #0000FFCC, -0.40218538552878136px 0 2px #FF0000CC;
+  }
+
+  20%
+  {
+    text-shadow: 3.4794037899852017px 0 2px #0000FFCC, -3.4794037899852017px 0 2px #FF0000CC;
+  }
+
+  25%
+  {
+    text-shadow: 1.6125630401149584px 0 2px #0000FFCC, -1.6125630401149584px 0 2px #FF0000CC;
+  }
+
+  30%
+  {
+    text-shadow: 0.7015590085143956px 0 2px #0000FFCC, -0.7015590085143956px 0 2px #FF0000CC;
+  }
+
+  35%
+  {
+    text-shadow: 3.896914047650352px 0 2px #0000FFCC, -3.896914047650352px 0 2px #FF0000CC;
+  }
+
+  40%
+  {
+    text-shadow: 3.870905614848819px 0 2px #0000FFCC, -3.870905614848819px 0 2px #FF0000CC;
+  }
+
+  45%
+  {
+    text-shadow: 2.231056963361899px 0 2px #0000FFCC, -2.231056963361899px 0 2px #FF0000CC;
+  }
+
+  50%
+  {
+    text-shadow: 0.08084290417898504px 0 2px #0000FFCC, -0.08084290417898504px 0 2px #FF0000CC;
+  }
+
+  55%
+  {
+    text-shadow: 2.3758461067427543px 0 2px #0000FFCC, -2.3758461067427543px 0 2px #FF0000CC;
+  }
+
+  60%
+  {
+    text-shadow: 2.202193051050636px 0 2px #0000FFCC, -2.202193051050636px 0 2px #FF0000CC;
+  }
+
+  65%
+  {
+    text-shadow: 2.8638780614874975px 0 2px #0000FFCC, -2.8638780614874975px 0 2px #FF0000CC;
+  }
+
+  70%
+  {
+    text-shadow: 0.48874025155497314px 0 2px #0000FFCC, -0.48874025155497314px 0 2px #FF0000CC;
+  }
+
+  75%
+  {
+    text-shadow: 1.8948491305757957px 0 2px #0000FFCC, -1.8948491305757957px 0 2px #FF0000CC;
+  }
+
+  80%
+  {
+    text-shadow: 0.0833037308038857px 0 2px #0000FFCC, -0.0833037308038857px 0 2px #FF0000CC;
+  }
+
+  85%
+  {
+    text-shadow: 0.09769827255241735px 0 2px #0000FFCC, -0.09769827255241735px 0 2px #FF0000CC;
+  }
+
+  90%
+  {
+    text-shadow: 3.443339761481782px 0 2px #0000FFCC, -3.443339761481782px 0 2px #FF0000CC;
+  }
+
+  95%
+  {
+    text-shadow: 2.1841838852799786px 0 2px #0000FFCC, -2.1841838852799786px 0 2px #FF0000CC;
+  }
+
+  100%
+  {
+    text-shadow: 2.6208764473832513px 0 2px #0000FFCC, -2.6208764473832513px 0 2px #FF0000CC;
+  }
+}
